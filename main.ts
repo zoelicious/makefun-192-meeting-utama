@@ -4,6 +4,7 @@ import path from "node:path";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
+// The entry text below is written verbatim to entry.txt as the submission.
 const text = "After the meeting, someone emailed us the email we had just spent an hour not sending.";
 
 try {
